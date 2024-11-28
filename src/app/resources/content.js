@@ -1,12 +1,12 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'WS',
+    lastName:  'AUDIO',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Design Engineer',
+    role:      'Professional Audio & Lighting',
     avatar:    '/images/avatar.jpg',
     location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
@@ -14,8 +14,8 @@ const person = {
 
 const newsletter = {
     display: true,
-    title: <>Subscribe to {person.firstName}'s Newsletter</>,
-    description: <>I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering.</>
+    title: <>Subscribe to {person.firstName} AUDIO's Newsletter</>,
+    description: <>We occasionally write about Audio, Lighting, and share thoughts on the intersection of creativity and engineering.</>
 }
 
 const social = [
@@ -24,12 +24,17 @@ const social = [
     {
         name: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
+        link: 'https://github.com/',
+    },
+    {
+        name: 'Whatsapp',
+        icon: 'whatsapp',
+        link: 'https://api.whatsapp.com/send?phone=6287796989192&text=Halo!%20WS%20Audio.%0ASaya%20ingin%20memesan%20Jadwal%20untuk%20Acara...',
     },
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/',
     },
     {
         name: 'X',
@@ -39,21 +44,21 @@ const social = [
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'mailto:hello@wsaudio.id',
     },
 ]
 
 const home = {
     label: 'Home',
-    title: `${person.name}'s Portfolio`,
-    description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    title: `${person.name}'s `,
+    description: `Rental Sound System ${person.role}`,
+    headline: <>Professional Sound System & Lighting</>,
+    subline: <>Kami adalah penyedia layanan sewa Sound System dan Lighting yang siap memenuhi berbagai kebutuhan acara <br/> mulai dari pernikahan, konser, hingga acara perusahaan,<br/> dengan Peralatan Berkualitas Tinggi dan Layanan Profesional.</>
 }
 
 const about = {
     label: 'About',
-    title: 'About me',
+    title: 'About us',
     description: `Meet ${person.name}, ${person.role} from ${person.location}`,
     tableOfContent: {
         display: true,
@@ -64,24 +69,24 @@ const about = {
     },
     calendar: {
         display: true,
-        link: 'https://cal.com'
+        link: 'https://api.whatsapp.com/send?phone=6287796989192&text=Halo!%20WS%20Audio.%0ASaya%20ingin%20memesan%20Jadwal%20untuk%20Acara...'
     },
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>Transformasikan acara Anda dengan menyewa sound system dan lighting dari kami! Dengan peralatan profesional terkini dan kru ahli yang berpengalaman, kami menjamin pengalaman audio dan visual yang memukau. Jadikan setiap momen lebih hidup dan berkesan dengan layanan kami yang terpercaya!</>
     },
     work: {
         display: true, // set to false to hide this section
-        title: 'Work Experience',
+        title: 'Sound System',
         experiences: [
             {
-                company: 'FLY',
-                timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                company: 'Professional Audio',
+                timeframe: 'Berdiri sejak 2020',
+                role: 'Equipment & Teknisi berpengalaman',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+                    <>Dengan menggunakan alat yang berkualitas akan sangat mempengaruhi kualitas suara yang berkelas.</>,
+                    <>Alat berkualitas tidak akan menghasilkan hasil yang berkelas jika tidak disandingkan dengan Teknisi yang memiliki pengalaman.</>
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
@@ -91,30 +96,30 @@ const about = {
                         height: 9
                     }
                 ]
-            },
-            {
-                company: 'Creativ3',
-                timeframe: '2018 - 2022',
-                role: 'Lead Designer',
-                achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
-                ],
-                images: [ ]
             }
+            // {
+            //     company: 'Creativ3',
+            //     timeframe: '2018 - 2022',
+            //     role: 'Lead Designer',
+            //     achievements: [
+            //         <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
+            //         <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+            //     ],
+            //     images: [ ]
+            // }
         ]
     },
     studies: {
         display: true, // set to false to hide this section
-        title: 'Studies',
+        title: 'Lighting',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'Lights Everywhre',
+                description: <>Dengan teknologi pencahayaan canggih dan desain yang kreatif, kami siap menciptakan suasana yang memukau dan menghidupkan setiap momen. Percayakan pencahayaan acara Anda kepada kami dan saksikan keajaibannya!.</>,
             },
             {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'Professional Lighting Engineer',
+                description: <>Kreativitas dan Teknologi untuk menciptakan pengalaman visual yang menakjubkan. Dengan pemahaman mendalam tentang pencahayaan dan desain panggung, Kami siap membantu mewujudkan visi acara Anda dengan solusi pencahayaan yang inovatif dan efektif..</>,
             }
         ]
     },
@@ -123,8 +128,8 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'Figma',
-                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+                title: 'Equipment',
+                description: <>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quaerat!</>,
                 images: [
                     {
                         src: '/images/projects/project-01/cover-02.jpg',
@@ -141,8 +146,8 @@ const about = {
                 ]
             },
             {
-                title: 'Next.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+                title: 'Great Engineers',
+                description: <>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quaerat!</>,
                 images: [
                     {
                         src: '/images/projects/project-01/cover-04.jpg',
@@ -158,7 +163,7 @@ const about = {
 
 const blog = {
     label: 'Blog',
-    title: 'Writing about design and tech...',
+    title: 'Berbagi Pengalaman Seputar Audio Sistem dan Lighting...',
     description: `Read what ${person.name} has been up to recently`
     // Create new blog posts by adding a new .mdx file to app/blog/posts
     // All posts will be listed on the /blog route
@@ -166,7 +171,7 @@ const blog = {
 
 const work = {
     label: 'Work',
-    title: 'My projects',
+    title: 'Our projects',
     description: `Design and dev projects by ${person.name}`
     // Create new project pages by adding a new .mdx file to app/blog/posts
     // All projects will be listed on the /home and /work routes

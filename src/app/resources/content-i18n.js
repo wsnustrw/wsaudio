@@ -2,8 +2,8 @@ import { InlineCode } from "@/once-ui/components";
 
 const createI18nContent = (t) => {
     const person = {
-        firstName: 'Selene',
-        lastName:  'Yu',
+        firstName: 'WS',
+        lastName:  'AUDIO',
         get name() {
             return `${this.firstName} ${this.lastName}`;
         },
@@ -23,14 +23,19 @@ const createI18nContent = (t) => {
         // Links are automatically displayed.
         // Import new icons in /once-ui/icons.ts
         {
+            name: 'Whatsapp',
+            icon: 'whatsapp',
+            link: '',
+        },
+        {
             name: 'GitHub',
             icon: 'github',
-            link: 'https://github.com/once-ui-system/nextjs-starter',
+            link: 'https://github.com/',
         },
         {
             name: 'LinkedIn',
             icon: 'linkedin',
-            link: 'https://www.linkedin.com/company/once-ui/',
+            link: 'https://www.linkedin.com/',
         },
         {
             name: 'X',
@@ -40,7 +45,7 @@ const createI18nContent = (t) => {
         {
             name: 'Email',
             icon: 'email',
-            link: 'mailto:example@gmail.com',
+            link: 'mailto:hello@wsaudio.id',
         },
     ]
 
@@ -65,7 +70,7 @@ const createI18nContent = (t) => {
         },
         calendar: {
             display: true,
-            link: 'https://cal.com'
+            link: 'https://api.whatsapp.com/send?phone=6287796989192&text=Halo!%20WS%20Audio.%0ASaya%20ingin%20memesan%20Jadwal%20untuk%20Acara...'
         },
         intro: {
             display: true,

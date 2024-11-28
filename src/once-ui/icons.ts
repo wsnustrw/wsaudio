@@ -30,6 +30,7 @@ import {
 } from "react-icons/pi";
 
 import {
+	FaWhatsapp,
 	FaDiscord,
 	FaGithub,
 	FaLinkedin,

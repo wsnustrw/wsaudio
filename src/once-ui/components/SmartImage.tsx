@@ -121,7 +121,7 @@ const SmartImage: React.FC<SmartImageProps> = ({
                         src={src}
                         autoPlay
                         loop
-                        muted
+                        
                         playsInline
                         style={{
                             width: '100%',
@@ -185,7 +185,7 @@ const SmartImage: React.FC<SmartImageProps> = ({
                                 src={src}
                                 autoPlay
                                 loop
-                                muted
+                                
                                 playsInline
                                 style={{ 
                                     width: '90vw',

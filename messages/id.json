@@ -1,6 +1,6 @@
 {
     "person": {
-        "role": "Insinyur Desain"
+        "role": "Professional Audio System & Lighting"
     },
     "newsletter": {
         "title": "Langganan Buletin {firstName}",
@@ -12,15 +12,15 @@
         "title": "Portofolio {name}",
         "description": "Situs web portofolio yang menampilkan karya saya sebagai {role}",
         "headline": "Insinyur desain dan pembangun",
-        "subline": "Saya Selene, seorang insinyur desain di FLY, di mana saya membuat pengalaman pengguna yang intuitif. Setelah jam kerja, saya mengerjakan proyek-proyek pribadi."
+        "subline": "Transformasikan acara Anda dengan menyewa sound system dan lighting dari kami! Dengan peralatan profesional terkini dan kru ahli yang berpengalaman, kami menjamin pengalaman audio dan visual yang memukau. Jadikan setiap momen lebih hidup dan berkesan dengan layanan kami yang terpercaya!"
     },
     "about": {
         "label": "Tentang",
-        "title": "Tentang Saya",
+        "title": "Tentang Kami",
         "description": "Kenali {name}, {role} dari {location}",
         "intro": {
             "title": "Pengantar",
-            "description": "Selene adalah seorang insinyur desain yang berbasis di Jakarta dengan hasrat untuk mengubah tantangan kompleks menjadi solusi desain yang sederhana dan elegan. Karyanya meliputi antarmuka digital, pengalaman interaktif, dan pertemuan antara desain dan teknologi."
+            "description": "Kami adalah penyedia layanan sewa sound system dan lighting yang siap memenuhi berbagai kebutuhan acara, mulai dari pernikahan, konser, hingga acara korporat, dengan peralatan berkualitas tinggi dan layanan profesional."
         },
         "work": {
             "title": "Pengalaman Kerja",
@@ -72,7 +72,7 @@
     },
     "gallery": {
         "label": "Galeri",
-        "title": "Galeri Foto Saya",
+        "title": "Galeri Foto Kami",
         "description": "Koleksi foto oleh {name}"
     },
     "projectCard": {
