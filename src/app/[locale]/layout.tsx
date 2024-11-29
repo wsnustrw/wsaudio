@@ -15,6 +15,7 @@ import { getMessages, getTranslations, unstable_setRequestLocale } from 'next-in
 import { routing } from "@/i18n/routing";
 import { renderContent } from "@/app/resources";
 import { Background, Flex } from "@/once-ui/components";
+import { Analytics } from "@vercel/analytics/react"
 
 export async function generateMetadata(
 	{ params: { locale }}: { params: { locale: string }}
@@ -22,8 +23,9 @@ export async function generateMetadata(
 
 	const t = await getTranslations();
 	const { person, home } = renderContent(t);
-
+	
 	return {
+		
 		metadataBase: new URL(`https://${baseURL}/${locale}`),
 		title: home.title,
 		description: home.description,
@@ -90,7 +92,9 @@ export default async function RootLayout({
 	unstable_setRequestLocale(locale);
 	const messages = await getMessages();
 	return (
+		
 		<NextIntlClientProvider messages={messages}>
+			<Analytics/>
 			<Flex
 				as="html" lang="en"
 				background="page"
